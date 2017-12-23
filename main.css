@@ -10,6 +10,20 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
+    background-attachment: fixed;
+}
+
+.flex-container{
+  display: flex;
+
+}
+
+.flex-container > div{
+  color: green;
+  background-color: yellow;
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;
 }
 
 /* navbar */
@@ -38,7 +52,7 @@ body, html {
 #cssmenu ul {
   zoom: 1;
   background: #36b0b6;
-  background: -moz-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -moz-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%)
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #36b0b6), color-stop(100%, #2a8a8f));
   background: -webkit-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
   background: -o-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
